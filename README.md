@@ -1,2 +1,5 @@
-# MatrixDownload
-This is a place to download builds of my Matrix screensaver. 
+# Matrix
+
+<img src="Matrix.png"><img src="Matrix-config.png"><br>
+
+To download builds, click the [Releases](https://github.com/monroewilliams/MatrixDownload/releases) tab above.
