@@ -16,7 +16,8 @@ Release notes:
 
 Version 1.1.2
 - fixed zoom running backwards in OpenGL renderer
-- changed some of the internals of how preferences are stored. Renderer selection is now a popup
+- changed some of the internals of how preferences are stored
+- renderer selection is now a popup
 - changed deployment target to include Mac OS X 10.11, and fixed some issues so it should now work on a 10.11 machine (the Metal renderer is disabled on 10.11 due to some issues there, so it's forced to OpenGL)
 
 Version 1.1.1
