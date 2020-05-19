@@ -10,7 +10,7 @@ Download the latest release [here](https://github.com/monroewilliams/MatrixDownl
 
 Unzip to Matrix.saver and double-click it to install, then go to System Preferences -> Desktop & Screen Saver and pick it from the list. 
 
-The "Metal" button switches betewen using OpenGL and Metal for rendering. The others are all pretty self-explanatory, although you might have to wait a bit to see what "Minor Instability" does. :)
+The "Renderer" popup switches betewen using OpenGL and Metal for rendering. The others are all pretty self-explanatory, although you might have to wait a bit to see what "Minor Instability" does. :)
 
 Release notes:
 
