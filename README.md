@@ -1,5 +1,7 @@
 # Matrix
 
+Now featured on [Awesome macOS Screensavers](https://github.com/agarrharr/awesome-macos-screensavers)! 
+
 This is a Mac screensaver that I've been tinkering with since roughly 2002. I run it on all my personal machines, and have given copies to a few friends over the years, but hadn't made it publicly available for download.
 
 After making some updates to it recently, I decided it was time.
