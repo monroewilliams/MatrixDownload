@@ -16,6 +16,9 @@ The "Renderer" popup switches betewen using OpenGL and Metal for rendering. The 
 
 Release notes:
 
+Version 1.1.3
+- now built for both Intel and Apple Silicon
+
 Version 1.1.2
 - fixed zoom running backwards in OpenGL renderer
 - changed some of the internals of how preferences are stored
