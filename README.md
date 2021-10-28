@@ -8,13 +8,16 @@ After making some updates to it recently, I decided it was time.
 
 <img src="Matrix.png"><img src="Matrix-config.png"><br>
 
-Download the latest release [here](https://github.com/monroewilliams/MatrixDownload/releases/download/1.1.3/Matrix.saver.zip).
+Download the latest release [here](https://github.com/monroewilliams/MatrixDownload/releases/download/1.1.4/Matrix.saver.zip).
 
 Unzip to Matrix.saver and double-click it to install, then go to System Preferences -> Desktop & Screen Saver and pick it from the list. 
 
 The "Renderer" popup switches betewen using OpenGL and Metal for rendering. The others are all pretty self-explanatory, although you might have to wait a bit to see what "Minor Instability" does. :)
 
 Release notes:
+
+Version 1.1.4
+- Fix for the black gap on the right edge on displays with a horizontal size that's not an even multiple of 4x the glyph width.
 
 Version 1.1.3
 - now built for both Intel and Apple Silicon
