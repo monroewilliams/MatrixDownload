@@ -16,6 +16,12 @@ The "Renderer" popup switches betewen using OpenGL and Metal for rendering. The 
 
 Release notes:
 
+Version 1.1.5
+- Implemented a workaround for a bug in Apple's `legacyScreenSaver` process that causes increasing CPU and memory consumption every time the screensaver is invoked. 
+  - Note that this is a problem with _all_ third-party screensavers, and it has been reported to Apple several times by different people over the past year or two, but it remains unfixed.
+  - I got the idea from this workaround from a [comment](https://github.com/JohnCoates/Aerial/issues/1305#issuecomment-2145945786) on a problem report on another screensaver. The screensaver plugin listens for a notification that the screensaver has been stopped, and calls exit(0) to terminate the process.
+  - I've also added a checkbox to the screensaver's configuration pane that allows this workaround to be disabled if it causes problems in the future.
+
 Version 1.1.4
 - Fix for the black gap on the right edge on displays with a horizontal size that's not an even multiple of 4x the glyph width.
 
